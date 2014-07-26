@@ -9,6 +9,7 @@ SyncCraft downloads your remote database, deletes your local database, and impor
 
 ## Notes
  - This is in alpha
+ - This version only allows for syncing a single assets folder. *Soon* it will allow an array of assets folders to sync between
  - Newer versions will probably rely on `my.cnfg` files to set MySQL authentication, rather than setting them as variables in `syncCraft.cfg`, but I'm open to suggestsions
  - **This is in alpha. BEWARE.**
 
