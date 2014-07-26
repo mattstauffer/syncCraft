@@ -1,7 +1,7 @@
 syncCraft
 =========
 
-SyncCraft is a command-line shell script that makes it simple to sync your database and assets to your local machine from a remote server. This is geeky and could go wrong if you aren't familiar with shell scripts. Please use with extreme caution.
+SyncCraft is a command-line shell script for sites powered by [Craft](http://buildwithcraft.com/) that makes it simple to sync your database and assets to your local machine from a remote server. This is geeky and could go wrong if you aren't familiar with shell scripts. Please use with extreme caution.
 
 ## What does it do?
 
@@ -13,7 +13,7 @@ SyncCraft downloads your remote database, deletes your local database, and impor
  - **This is in alpha. BEWARE.**
 
 ## Instructions - alias
-The easiest way to run the installer is to copy `syncCraft.sample.cfg` into each site directory, and for each: rename it to `syncCraft.cfg`, fill in the variables, and then copy the following line and run it from your terminal from that directory.
+The easiest way to run the sync is to copy `syncCraft.sample.cfg` into each site directory, and for each: rename it to `syncCraft.cfg`, fill in the variables, and then copy the following line and run it from your terminal from that directory.
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mattstauffer/syncCraft/master/syncCraft.sh)
