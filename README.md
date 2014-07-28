@@ -8,13 +8,15 @@ SyncCraft is a command-line shell script for sites powered by [Craft](http://bui
 SyncCraft downloads your remote database, deletes your local database, and imports the remote database into your local database. It then syncs down *any new/unchanged* assets from the folders you provide. It does this all via `ssh`, `mysqldump`, and `rsync`.
 
 ## Notes
+
  - This is in alpha
  - This version only allows for syncing a single assets folder. *Soon* it will allow an array of assets folders to sync between
- - Newer versions will probably rely on `my.cnfg` files to set MySQL authentication, rather than setting them as variables in `syncCraft.cfg`, but I'm open to suggestsions
+ - Newer versions will probably rely on `my.cnf` files to set MySQL authentication, rather than setting them as variables in `syncCraft.cfg`, but I'm open to suggestsions
  - **This is in alpha. BEWARE.**
 
 ## Instructions - alias
-The easiest way to run the sync is to copy `syncCraft.sample.cfg` into each site directory, and for each: rename it to `syncCraft.cfg`, fill in the variables, and then copy the following line and run it from your terminal from that directory.
+
+The easiest way to run the installer is to copy `syncCraft.cfg` into each site directory, and for each: fill in the variables, and then copy the following line and run it from your terminal from that directory.
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mattstauffer/syncCraft/master/syncCraft.sh)
