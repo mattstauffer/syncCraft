@@ -32,9 +32,9 @@ Now close `~/.bash_profile` and restart your terminal window. You can now run th
 ## Instructions - local copy
 
 1. Download [syncCraft.sh][1] and place it somewhere you can access it easily from your Terminal. Consider your home folder (`~/`)
-2. Make sure your permissions are set so it's executable: `chmod +x ~/makeItCraft.sh`
+2. Make sure your permissions are set so it's executable: `chmod +x ~/syncCraft.sh`
 3. Copy `syncCraft.cfg` into your site directory and fill in the variables
-4. Run syncCraft from that directory: `~/makeItCraft.sh` every time you want to sync it
+4. Run syncCraft from that directory: `~/syncCraft.sh` every time you want to sync it
 5. That's it!
 
 
